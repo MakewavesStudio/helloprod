@@ -1,0 +1,61 @@
+// compileCompressed: ../$1.css
+/*
+Theme Name: Makewaves
+Theme URI: ....
+Author: Makewaves Studio
+Author URI:
+Description: Le thème HQ du studio Makewaves
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+//ITCSS Structure
+
+//1-SETTINGS
+@import '1-settings/0-mixins';
+@import '1-settings/1-variables';
+@import '1-settings/2-fonts-setup';
+@import '1-settings/3-colors';
+@import '1-settings/4-breakpoints';
+
+//2-TOOLS
+@import '2-tools/1-mixins-transforms';
+@import '2-tools/2-mixins-boxes';
+@import '2-tools/3-mixins-gradients';
+@import '2-tools/4-mixins-ul-unstyle';
+
+//3-GENERIC
+@import '3-generic/1-reset-normalize-8';
+@import '3-generic/2-reset-box-sizing';
+@import '3-generic/3-html-body';
+
+//4-COMPONENTS - Atoms
+@import '4-components/1-atoms/1-titles';
+@import '4-components/1-atoms/2-texts';
+@import '4-components/1-atoms/3-buttons';
+@import '4-components/1-atoms/4-forms';
+@import '4-components/1-atoms/5-medias';
+
+//4-COMPONENTS - Molecules
+@import '4-components/2-molecules/3-social-icons';
+
+//4-COMPONENTS - Organisms
+@import '4-components/3-organisms/_header';
+@import '4-components/3-organisms/_footer';
+@import '4-components/3-organisms/_menu-burger';
+
+//4-COMPONENTS - Templates
+@import '4-components/4-templates/_1-wrapper';
+@import '4-components/4-templates/_2-landing';
+@import '4-components/4-templates/_3-global-container';
+@import '4-components/4-templates/_4-boxer';
+
+//5-UTILITIES
+@import '5-utilities/1-utilities';

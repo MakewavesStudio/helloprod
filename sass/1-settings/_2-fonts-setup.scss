@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+//
+// @font-face {
+// 	font-family: 'Open Sans';
+// 	src: url('./font/opensans-regular-webfont.eot');
+// 	src: local('☺'),
+// 	url('./font/opensans-regular-webfont.woff2') format('woff2'),
+// 	url('./font/opensans-regular-webfont.woff') format('woff'),
+// 	url('./font/opensans-regular-webfont.ttf') format('truetype'),
+// 	url('./fonts/opensans-regular-webfont.svg') format('svg');
+//   font-weight:$regular;
+// 	font-style: normal;
+// }
+//
+// @font-face {
+// 	font-family: 'Open Sans';
+// 	src: url('./font/opensans-bold-webfont.eot');
+// 	src: local('☺'),
+// 	url('./font/opensans-bold-webfont.woff2') format('woff2'),
+// 	url('./font/opensans-bold-webfont.woff') format('woff'),
+// 	url('./font/opensans-bold-webfont.ttf') format('truetype'),
+// 	url('./fonts/opensans-bold-webfont.svg') format('svg');
+//   font-weight:$bold;
+// 	font-style: normal;
+// }
+//
+// $font: "'Poppins', sans-serif;";
+// $font-alt: "'Open Sans', serif";
+
+@include font('Open Sans', 'opensans-bold-webfont', bold, normal);
+@include font('Open Sans', 'opensans-bold-webfont', normal, normal);
+
+// @include font('Poppins', 'poppins-regular', normal, normal);
+// @include font('Poppins', 'poppins-italic', normal, italic);
+// @include font('Poppins', 'poppins-medium', 500, normal);
+// @include font('Poppins', 'poppins-mediumitalic', 500, italic);
+// @include font('Poppins', 'poppins-light', 300, normal);
+// @include font('Poppins', 'poppins-lightitalic', 300, italic);
+// @include font('Poppins', 'poppins-extrabold', 900, normal);
+
+$extralight:"200";
+$light: '300';
+$regular: '400';
+$medium: '500';
+$semibold: '600';
+$bold: '700';
+$extrabold: '800';
+$black: '900';

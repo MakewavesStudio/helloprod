@@ -1,0 +1,45 @@
+.c-footer{
+  &__logo{
+    width:110px;
+  }
+}
+
+.c-footer{
+  &__social-menu{
+    @include ul-unstyle;
+    a{
+      color:$text-color-main;
+      &:hover{
+        color:$color-main;
+        text-decoration:none;
+      }
+    }
+  }
+}
+
+.c-footer{
+  &__contact-menu{
+    @include ul-unstyle;
+    a{
+      color:$text-color-main;
+      &:hover{
+        color:$color-main;
+        text-decoration:none;
+      }
+    }
+  }
+}
+
+.c-footer{
+  &__last-details{
+    padding:8px 0;
+    text-align:center;
+    a{
+      color:$text-color-main;
+      &:hover{
+        color:$color-main;
+        text-decoration:none;
+      }
+    }
+  }
+}

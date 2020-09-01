@@ -1,0 +1,9 @@
+.o-boxer {
+  display: grid;
+}
+
+.o-boxer--col2 {
+  @media #{$tab} {
+    grid-template-columns: 1fr 1fr;
+  }
+}

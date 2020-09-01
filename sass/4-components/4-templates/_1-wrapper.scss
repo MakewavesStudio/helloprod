@@ -1,0 +1,25 @@
+.o-wrapper{
+  padding-left:30px;
+  padding-right:30px;
+  @media #{$mob2} {
+    padding-left:8vw;
+    padding-right:8vw;
+  }
+  @media #{$tab} {
+    padding-left:10vw;
+    padding-right:10vw;
+  }
+  @media #{$desk} {
+    padding-left:12vw;
+    padding-right:12vw;
+  }
+  @media #{$extend} {
+    padding-left:14vw;
+    padding-right:14vw;
+  }
+}
+
+.o-wrapper--max{
+  padding-left:20px;
+  padding-right:20px;
+}

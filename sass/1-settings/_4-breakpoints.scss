@@ -1,0 +1,21 @@
+$mob: "screen and (min-width: 320px)";
+$mob2: "screen and (min-width: 550px)";
+$tab: "screen and (min-width: 768px)";
+$tab2: "screen and (min-width: 768px)";
+$desk: "screen and (min-width: 1280px)";
+$extend: "screen and (min-width: 1440px)";
+
+$port:"screen and (orientation: portrait)";
+$land:"screen and (orientation: landscape)";
+
+$mob-port: "screen and (min-width: 320px) and (orientation: portrait)";
+$mob2-port: "screen and (min-width: 550px) and (orientation: portrait)";
+$tab-port: "screen and (min-width: 768px) and (orientation: portrait)";
+$desk-port: "screen and (min-width: 1280px) and (orientation: portrait)";
+$extend-port: "screen and (min-width: 1440px) and (orientation: portrait)";
+
+$mob-land: "screen and (min-width: 320px) and (orientation: landscape)";
+$mob2-land: "screen and (min-width: 550px) and (orientation: landscape)";
+$tab-land: "screen and (min-width: 768px) and (orientation: landscape)";
+$desk-land: "screen and (min-width: 1280px) and (orientation: landscape)";
+$extend-land: "screen and (min-width: 1440px) and (orientation: landscape)";

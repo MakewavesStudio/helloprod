@@ -1,0 +1,107 @@
+.c-header{
+  position:fixed;
+  height:$header-height;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.c-header{
+  &__logolink{
+    display: inline-block;
+    position:absolute;
+    left:15px;
+    top:15px;
+  }
+}
+
+.c-header{
+  &__logo{
+    width:140px;
+  }
+}
+
+.c-header{
+  &__burger{
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    @media #{$desk} {
+      display:none;
+    }
+  }
+}
+
+.c-header{
+  &__menulayout{
+    display:none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: $color-main;
+    width: 100vw;
+    height: 100vh;
+    @media #{$desk} {
+      background: transparent;
+      display:block;
+      display: inline-block;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      left: initial;
+      width: auto;
+      height: auto;
+    }
+  }
+}
+
+.c-header{
+  &__navmenu{
+    ul.menu{
+      @include ul-unstyle;
+      a{
+        color:$text-color-main;
+        text-transform:uppercase;
+        font-weight:700;
+        &:hover{
+          color:$color-main;
+          text-decoration:none;
+        }
+      }
+    }
+    @media #{$desk} {
+      display: inline-block;
+      ul.menu{
+        >li{
+          display:inline-block;
+          margin:0 10px;
+        }
+      }
+    }
+  }
+}
+
+.c-header{
+  &__social-menu{
+    @include ul-unstyle;
+    a{
+      color:$text-color-main;
+      &:hover{
+        color:$color-main;
+        text-decoration:none;
+      }
+    }
+    @media #{$desk} {
+      display: inline-block;
+      margin-left:30px;
+      >li{
+        display:inline-block;
+        margin:0 10px;
+      }
+    }
+  }
+}

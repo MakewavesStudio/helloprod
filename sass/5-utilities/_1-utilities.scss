@@ -1,0 +1,17 @@
+
+.u-cover{
+  background-position:center;
+  background-size:cover;
+}
+
+.u-clear{
+  clear:both;
+  display:inline-block;
+}
+
+.unlink{
+  color:initial;
+  &:hover{
+    text-decoration:none;
+  }
+}

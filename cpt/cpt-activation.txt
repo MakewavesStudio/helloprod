@@ -1,0 +1,6 @@
+slider
+partner
+page
+post
+projet
+evenement

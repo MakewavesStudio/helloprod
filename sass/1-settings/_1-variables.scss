@@ -1,0 +1,31 @@
+// Path
+$path-images : '../img/';
+$path-fonts  : '../font/';
+
+// Fonts
+$font  : "Poppins", Arial, Helvetica, sans-serif;
+$font-alt : "PF Handbook Pro", Arial, Helvetica, sans-serif;
+
+
+// Vars
+$container-max-width : 1440px;
+$container-max-width-big : 1600px;
+
+$gutter : 30px;
+$gutters : (
+	'small'  : 20px,
+	'medium' : 30px,
+	'large'  : 40px,
+	'huge'   : 60px,
+);
+
+$breakpoints : (
+	'mini'  : 549px,
+	'small'  : 767px,
+	'medium' : 1023px,
+	'large'  : 1279px,
+	'huge'   : 1439px,
+	'giant'   : 1919px,
+);
+
+$header-height: 80px;

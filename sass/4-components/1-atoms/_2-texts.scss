@@ -1,0 +1,23 @@
+a{
+  color: $color-main;
+  text-decoration:none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+p{
+
+}
+
+strong{
+  font-weight: $bold;
+}
+
+em{
+
+}
+
+i{
+
+}
